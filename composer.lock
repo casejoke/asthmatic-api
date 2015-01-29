@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "93ba06c7f55c134fcfc2a4a38a89049e",
+    "hash": "5925ceb7041075046fda052a6b5804d7",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -150,6 +150,52 @@
                 "jquery",
                 "mask",
                 "plugins"
+            ]
+        },
+        {
+            "name": "bower-asset/jstree",
+            "version": "3.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vakata/jstree.git",
+                "reference": "2f630b4b32c78dc70c0b698e2e941fb4ee65f87c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vakata/jstree/zipball/2f630b4b32c78dc70c0b698e2e941fb4ee65f87c",
+                "reference": "2f630b4b32c78dc70c0b698e2e941fb4ee65f87c",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.9.1"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "./dist/jstree.js",
+                    "./dist/themes/default/style.css"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "docs",
+                    "demo",
+                    "libs",
+                    "node_modules",
+                    "test",
+                    "libs",
+                    "jstree.jquery.json",
+                    "gruntfile.js",
+                    "package.json",
+                    "bower.json",
+                    "component.json",
+                    "LICENCE-MIT",
+                    "README.md"
+                ]
+            },
+            "keywords": [
+                "jstree",
+                "tree",
+                "ui"
             ]
         },
         {
@@ -316,6 +362,89 @@
                 "html"
             ],
             "time": "2013-11-30 08:25:19"
+        },
+        {
+            "name": "fourteenmeister/yii2-rbac",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fourteenmeister/yii2-rbac.git",
+                "reference": "8839ff8dc71b0f9a3fd93d858cd2e36aa0f5150c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fourteenmeister/yii2-rbac/zipball/8839ff8dc71b0f9a3fd93d858cd2e36aa0f5150c",
+                "reference": "8839ff8dc71b0f9a3fd93d858cd2e36aa0f5150c",
+                "shasum": ""
+            },
+            "require": {
+                "fourteenmeister/yii2-tree": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "fourteenmeister\\rbac\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "fourteenmeister\\rbac\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "fourteenmeister",
+                    "email": "fourteenmeister@gmail.com"
+                }
+            ],
+            "description": "CRUD of access rights",
+            "keywords": [
+                "extension",
+                "yii2"
+            ],
+            "time": "2014-12-16 08:23:06"
+        },
+        {
+            "name": "fourteenmeister/yii2-tree",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fourteenmeister/yii2-tree.git",
+                "reference": "49d61f9a818908ee55dff3abfd2d9b00cfac69b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fourteenmeister/yii2-tree/zipball/49d61f9a818908ee55dff3abfd2d9b00cfac69b2",
+                "reference": "49d61f9a818908ee55dff3abfd2d9b00cfac69b2",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jstree": "3.0.*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "fourteenmeister\\tree\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "fourteenmeister",
+                    "email": "fourteenmeister@gmail.com"
+                }
+            ],
+            "description": "Creating and managing trees",
+            "keywords": [
+                "extension",
+                "yii2"
+            ],
+            "time": "2014-12-01 07:29:22"
         },
         {
             "name": "swiftmailer/swiftmailer",
