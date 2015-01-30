@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "da6c24fe4b8c3cb612208a877a8006ea",
+    "hash": "5925ceb7041075046fda052a6b5804d7",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -257,47 +257,8 @@
             },
             "license": [
                 "MIT"
-            ]
-        },
-        {
-            "name": "casejoke/yii2-rbac",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/casejoke/yii-rbac.git",
-                "reference": "80c966a09f3d6dcdf6e307caa6029051e3a85da0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/casejoke/yii-rbac/zipball/80c966a09f3d6dcdf6e307caa6029051e3a85da0",
-                "reference": "80c966a09f3d6dcdf6e307caa6029051e3a85da0",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "casejoke\\rbac\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
             ],
-            "authors": [
-                {
-                    "name": "casejoke",
-                    "email": "casejoke@gmail.com"
-                }
-            ],
-            "description": "CRUD of access rights",
-            "keywords": [
-                "extension",
-                "yii2"
-            ],
-            "time": "2015-01-29 15:28:45"
+            "time": "2015-01-22 20:06:42"
         },
         {
             "name": "cebe/markdown",
@@ -544,12 +505,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "33a8047cf86d0918b7fe751246539a0be6dc6b27"
+                "reference": "7de535eb3b0c9acd04d8b565107561561cb27e3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/33a8047cf86d0918b7fe751246539a0be6dc6b27",
-                "reference": "33a8047cf86d0918b7fe751246539a0be6dc6b27",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7de535eb3b0c9acd04d8b565107561561cb27e3a",
+                "reference": "7de535eb3b0c9acd04d8b565107561561cb27e3a",
                 "shasum": ""
             },
             "require": {
@@ -625,7 +586,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2015-01-29 13:44:05"
+            "time": "2015-01-29 18:27:47"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
